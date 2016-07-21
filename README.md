@@ -8,3 +8,9 @@ Administración de Sistemas Informáticos en Red.
 CIFP Majada Marcial
 
 Autor: Javier Jiménez García
+
+Puedes ver el funcionamiento de la aplicación en la siguiente lista de reproducción de YouTube:
+https://www.youtube.com/playlist?list=PLK2gNczvPDMoMJXcx_hjAIJdU2Q6zU4kb
+
+Para conectar con la Base de Datos:
+Modificar el archivo ProyectoImprenta/PHP/mysql-login.php
