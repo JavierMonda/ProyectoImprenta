@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+/*estilos visuales de la tabla*/
+.table-container {
+  width: 100%;
+  overflow-y: auto;
+  _overflow: auto;
+  margin: 0 0 5px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  font-size: 12px;
+  background: #eaebec;
+  margin: 0 auto;
+  text-align: left;
+  border: #ccc 1px solid;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 2px #d1d1d1;
+  -webkit-box-shadow: 0 1px 2px #d1d1d1;
+  box-shadow: 0 1px 2px #d1d1d1;
+}
+
+table th {
+  padding: 11px 15px 12px 15px;
+  border-top: 1px solid #fafafa;
+  border-bottom: 1px solid #2E64FE;
+  color: #fff;
+  background: #2E64FE;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2E64FE),
+    to(#2E64FE));
+  background: -moz-linear-gradient(top, #2E64FE, #2E64FE);
+}
+
+table tr {
+  text-align: center;
+  padding-left: 20px;
+}
+
+table td {
+  text-shadow: 1px 1px 0px #fff;
+  padding: 10px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb),
+    to(#fafafa));
+  background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+}
+
+table tr.even td {
+  background: #f6f6f6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8),
+    to(#f6f6f6));
+  background: -moz-linear-gradient(top, #f8f8f8, #f6f6f6);
+}
+
+table tr:hover td {
+  background: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2),
+    to(#f0f0f0));
+  background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+}
